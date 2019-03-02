@@ -14,9 +14,9 @@ module FormsLab
         Ship.new(ship)
       end
       
+      @ships = Ship.all
       
-  
-    # code other routes/actions here
-
+      erb :show
+    end
   end
 end
