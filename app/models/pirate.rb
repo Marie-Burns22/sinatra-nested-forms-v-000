@@ -8,8 +8,8 @@ class Pirate
   end 
   
   def initialize(pirate_hash)
-    @name = name
-    @weight = weight
-    @height = height
+    @name = pirate[:name]
+    @weight = pirate[:weight]
+    @height = height[:height] 
   end
 end
