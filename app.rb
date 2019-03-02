@@ -8,6 +8,7 @@ module FormsLab
     end
     
     post "/pirates"
+      @pirate = Pirate.new(params[:])
   
     # code other routes/actions here
 
