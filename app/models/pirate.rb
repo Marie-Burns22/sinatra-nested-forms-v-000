@@ -10,6 +10,6 @@ class Pirate
   def initialize(pirate_hash)
     @name = pirate[:name]
     @weight = pirate[:weight]
-    @height = height[:height] 
+    @height = pirate[:height] 
   end
 end
