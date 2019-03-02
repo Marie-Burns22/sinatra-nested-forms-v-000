@@ -7,7 +7,7 @@ module FormsLab
       erb :new 
     end
     
-    post "/pirate"
+    post "/pirates"
   
     # code other routes/actions here
 
