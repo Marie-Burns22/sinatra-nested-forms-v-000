@@ -7,7 +7,7 @@ class Pirate
     @@all
   end 
   
-  def initialize(pirate_hash)
+  def initialize(pirate)
     @name = pirate[:name]
     @weight = pirate[:weight]
     @height = pirate[:height] 
