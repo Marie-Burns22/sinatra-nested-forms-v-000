@@ -11,9 +11,9 @@ class Ship
     @@all = []
   end
   
-  def initialize(ship_hash)
-    @name = name
-    @type = type
-    @booty = booty
+  def initialize(ship)
+    @name = ship[:name]
+    @type = ship[:type]
+    @booty = ship[:booty]
   end
 end
