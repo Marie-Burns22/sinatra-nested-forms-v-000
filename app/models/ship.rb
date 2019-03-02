@@ -1,3 +1,3 @@
 class Ship
-  attr_accessor 
+  attr_accessor :
 end
