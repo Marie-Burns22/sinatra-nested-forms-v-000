@@ -7,9 +7,10 @@ class Pirate
     @@all
   end 
   
-  def initialize(pirate)
-    @name = pirate[:name]
-    @weight = pirate[:weight]
-    @height = pirate[:height] 
+  def initialize(params)
+    @name = params[:name]
+    @weight = params[:weight]
+    @height = params[:height] 
+    @@all << self
   end
 end
