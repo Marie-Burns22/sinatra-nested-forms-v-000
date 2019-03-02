@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get "/" do 
-      erb :/pirates/new 
+      erb :pirates/new.erb 
     end
     
     post "/pirates" do
